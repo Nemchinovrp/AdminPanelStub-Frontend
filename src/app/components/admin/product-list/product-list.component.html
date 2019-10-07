@@ -63,7 +63,8 @@
 </div>
 
 
-<div #productModal aria-hidden="true" aria-labelledby="productModalLabel" class="modal fade" id="productModal" role="dialog"
+<div #productModal aria-hidden="true" aria-labelledby="productModalLabel" class="modal fade" id="productModal"
+     role="dialog"
      tabIndex="-1">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -89,14 +90,16 @@
           </div>
           <div [ngClass]="{ 'has-error': f.submitted && !price.valid }" class="form-group">
             <label for="price">Price</label>
-            <input #price="ngModel" [(ngModel)]="selectedProduct.price" class="form-control input-text-custom" id="price"
+            <input #price="ngModel" [(ngModel)]="selectedProduct.price" class="form-control input-text-custom"
+                   id="price"
                    name="price" required type="number"/>
             <div *ngIf="f.submitted && !price.valid" class="help-block">Price is required.</div>
           </div>
 
           <div [ngClass]="{ 'has-error': f.submitted && !explanation.valid }" class="form-group">
             <label for="explanation">Explanation</label>
-            <textarea #explanation="ngModel" [(ngModel)]="selectedProduct.explanation" class="form-control" id="explanation" maxlength="1000"
+            <textarea #explanation="ngModel" [(ngModel)]="selectedProduct.explanation" class="form-control"
+                      id="explanation" maxlength="1000"
                       name="explanation" required rows="8"></textarea>
             <div *ngIf="f.submitted && !explanation.valid" class="help-block">Explanation is required.</div>
           </div>
@@ -111,7 +114,8 @@
 </div>
 
 
-<div #deleteModal aria-hidden="true" aria-labelledby="deleteModalLabel" class="modal fade" id="deleteModal" role="dialog"
+<div #deleteModal aria-hidden="true" aria-labelledby="deleteModalLabel" class="modal fade" id="deleteModal"
+     role="dialog"
      tabIndex="-1">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
