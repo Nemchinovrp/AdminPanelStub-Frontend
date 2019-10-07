@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  web:
+    image: xpendence/db-front:1.0.4
+    restart: on-failure
+    ports:
+      - 80:3000
+  back:
+    image: xpendence/db-back:1.0.8
+    restart: on-failure
+    ports:
+      - 8099:8099
