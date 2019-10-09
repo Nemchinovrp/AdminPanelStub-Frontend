@@ -23,7 +23,8 @@ docker rm --force CONTAINER 4f323d05f568
 
 Отправка контейнера на docker hub(https://ropenscilabs.github.io/r-docker-tutorial/04-Dockerhub.html)
 1) docker login
-2) 
+2) docker images
+ 
  REPOSITORY              TAG       IMAGE ID         CREATED           SIZE
  verse_gapminder_gsl     latest    023ab91c6291     3 minutes ago     1.975 GB
  verse_gapminder         latest    bb38976d03cf     13 minutes ago    1.955 GB
