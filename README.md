@@ -8,6 +8,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 Link to docker tutorial - https://dzone.com/articles/dockerizing-angular-app-via-nginxsnippe
 
 Remove docker image: docker image rm --force IMAGE <hash container>
+
 docker image rm --force IMAGE 0f5492315b45 
 
 docker stop [OPTIONS] CONTAINER [CONTAINER...]
