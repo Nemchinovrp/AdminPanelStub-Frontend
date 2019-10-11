@@ -13,11 +13,13 @@ import {NotFoundComponent} from './components/error/not-found/not-found.componen
 import {TransactionListComponent} from './components/admin/transaction-list/transaction-list.component';
 import {AuthGuard} from './guards/auth.guard';
 import {Role} from './model/role';
+import {TasksComponent} from './components/user/tasks/tasks.component';
 
 const routes: Routes = [
   //Main page
   {path: '', redirectTo: 'home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
+  {path: 'tasks', component: TasksComponent},
   //User pages
   {path: 'login', component: LoginComponent},
   {path: 'register', component: RegisterComponent},

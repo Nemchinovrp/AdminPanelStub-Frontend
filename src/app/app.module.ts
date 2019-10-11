@@ -34,6 +34,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {HttpClientModule} from '@angular/common/http';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {TransactionListComponent} from './components/admin/transaction-list/transaction-list.component';
+import { TasksComponent } from './components/user/tasks/tasks.component';
+
 
 
 @NgModule({
@@ -51,7 +53,8 @@ import {TransactionListComponent} from './components/admin/transaction-list/tran
     AdminTemplateComponent,
     NotFoundComponent,
     UnathorizedComponent,
-    TransactionListComponent
+    TransactionListComponent,
+    TasksComponent
   ],
   imports: [
     BrowserModule,
