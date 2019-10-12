@@ -6,7 +6,7 @@ import {Task} from '../model/Task';
 
 export class TestData {
 
-  static categories: Category[] = [
+  public static categories: Category[] = [
     {id: 1, title: 'Работа'},
     {id: 2, title: 'Семья'},
     {id: 3, title: 'Учеба'},
