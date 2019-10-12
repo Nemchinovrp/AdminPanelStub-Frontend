@@ -33,3 +33,5 @@ docker rm --force CONTAINER 4f323d05f568
 docker tag bb38976d03cf yourhubusername/verse_gapminder:firsttry
 
 docker push yourhubusername/verse_gapminder
+
+Добавление chartjs - npm install chart.js --save
