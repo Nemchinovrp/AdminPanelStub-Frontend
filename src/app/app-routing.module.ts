@@ -15,6 +15,7 @@ import {AuthGuard} from './guards/auth.guard';
 import {Role} from './model/role';
 import {TasksComponent} from './components/user/tasks/tasks.component';
 import {MainComponent} from './components/user/main/main.component';
+import {ChartComponent} from './components/user/chart/chart.component';
 
 const routes: Routes = [
   //Main page
@@ -22,6 +23,7 @@ const routes: Routes = [
   {path: 'home', component: MainComponent},
   {path: 'tasks', component: TasksComponent},
   {path: 'product', component: HomeComponent},
+  {path: 'chart', component: ChartComponent},
   //User pages
   {path: 'login', component: LoginComponent},
   {path: 'register', component: RegisterComponent},

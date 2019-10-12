@@ -38,6 +38,7 @@ import { TasksComponent } from './components/user/tasks/tasks.component';
 import { MainComponent } from './components/user/main/main.component';
 import { CategoriesComponent } from './components/user/categories/categories.component';
 import { ViewTasksComponent } from './components/user/view-tasks/view-tasks.component';
+import { ChartComponent } from './components/user/chart/chart.component';
 
 
 
@@ -60,7 +61,8 @@ import { ViewTasksComponent } from './components/user/view-tasks/view-tasks.comp
     TasksComponent,
     MainComponent,
     CategoriesComponent,
-    ViewTasksComponent
+    ViewTasksComponent,
+    ChartComponent
   ],
   imports: [
     BrowserModule,
