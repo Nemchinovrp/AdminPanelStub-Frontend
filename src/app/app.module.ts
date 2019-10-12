@@ -35,6 +35,7 @@ import {HttpClientModule} from '@angular/common/http';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {TransactionListComponent} from './components/admin/transaction-list/transaction-list.component';
 import { TasksComponent } from './components/user/tasks/tasks.component';
+import { MainComponent } from './components/user/main/main.component';
 
 
 
@@ -54,7 +55,8 @@ import { TasksComponent } from './components/user/tasks/tasks.component';
     NotFoundComponent,
     UnathorizedComponent,
     TransactionListComponent,
-    TasksComponent
+    TasksComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

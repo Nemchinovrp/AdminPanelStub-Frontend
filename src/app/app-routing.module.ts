@@ -14,12 +14,14 @@ import {TransactionListComponent} from './components/admin/transaction-list/tran
 import {AuthGuard} from './guards/auth.guard';
 import {Role} from './model/role';
 import {TasksComponent} from './components/user/tasks/tasks.component';
+import {MainComponent} from './components/user/main/main.component';
 
 const routes: Routes = [
   //Main page
   {path: '', redirectTo: 'home', pathMatch: 'full'},
-  {path: 'home', component: HomeComponent},
+  {path: 'home', component: MainComponent},
   {path: 'tasks', component: TasksComponent},
+  {path: 'product', component: HomeComponent},
   //User pages
   {path: 'login', component: LoginComponent},
   {path: 'register', component: RegisterComponent},
