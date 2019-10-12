@@ -20,7 +20,6 @@ export class TestData {
     {id: 11, title: 'Ремонт'},
   ];
 
-
   static priorities: Priority[] = [
     {id: 1, title: 'Низкий', color: '#e5e5e5'},
     {id: 2, title: 'Средний', color: '#85D1B2'},
@@ -39,7 +38,6 @@ export class TestData {
       category: TestData.categories[9],
       date: new Date('2019-04-10')
     },
-
     {
       id: 2,
       title: 'Передать отчеты начальнику управления',
@@ -108,13 +106,11 @@ export class TestData {
       completed: true,
       category: TestData.categories[4]
     },
-
     {
       id: 11,
       title: 'Организовать детский праздник ',
       completed: false
     },
-
     {
       id: 12,
       title: 'Сходить на лекцию "Как научиться программировать на Java"',
@@ -130,22 +126,18 @@ export class TestData {
       category: TestData.categories[5],
       date: new Date('2019-05-11')
     },
-
     {
       id: 14,
       title: 'Провести собрание по поводу всех проектов',
       completed: true,
       category: TestData.categories[0]
     },
-
     {
       id: 15,
       title: 'Сдать экзамен по Java',
       priority: TestData.priorities[2],
       completed: true
     },
-
-
     {
       id: 16,
       title: 'Положить 100 000 р в банк на депозит',
@@ -153,7 +145,6 @@ export class TestData {
       completed: false,
       category: TestData.categories[6]
     },
-
     {
       id: 17,
       title: 'Попросить аванс на работе',
@@ -161,7 +152,6 @@ export class TestData {
       completed: false,
       category: TestData.categories[6]
     },
-
     {
       id: 18,
       title: 'Сдать анализы, проверить гемоглобин',
@@ -171,7 +161,6 @@ export class TestData {
       date: new Date('2020-12-11')
 
     },
-
     {
       id: 19,
       title: 'Сравнить новый айпад с самсунгом',
@@ -181,7 +170,6 @@ export class TestData {
       date: new Date('2019-10-11')
 
     },
-
     {
       id: 20,
       title: 'Футбол с сотрудниками',
@@ -189,10 +177,7 @@ export class TestData {
       completed: false,
       category: TestData.categories[4],
       date: new Date('2019-03-17')
-
     }
 
   ];
-
 }
-
