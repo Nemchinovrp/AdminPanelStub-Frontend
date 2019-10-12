@@ -19,6 +19,6 @@ export class CategoriesComponent implements OnInit {
   }
 
   public loadTask(category: Category) {
-
+    this.dataHandler.fillTaskByCategory(category)
   }
 }
