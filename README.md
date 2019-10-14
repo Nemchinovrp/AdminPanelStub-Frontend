@@ -38,3 +38,5 @@ docker push yourhubusername/verse_gapminder
 
 
 https://github.com/AnteaterKit/angular2-yandex-maps/blob/master/README.md
+
+Google map = https://angular-maps.com/guides/getting-started/

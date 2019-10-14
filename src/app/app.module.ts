@@ -39,6 +39,8 @@ import { MainComponent } from './components/user/main/main.component';
 import { CategoriesComponent } from './components/user/categories/categories.component';
 import { ViewTasksComponent } from './components/user/view-tasks/view-tasks.component';
 import { ChartComponent } from './components/user/chart/chart.component';
+import { MapsComponent } from './components/user/maps/maps.component';
+import {AgmCoreModule} from '@agm/core';
 
 
 
@@ -62,7 +64,8 @@ import { ChartComponent } from './components/user/chart/chart.component';
     MainComponent,
     CategoriesComponent,
     ViewTasksComponent,
-    ChartComponent
+    ChartComponent,
+    MapsComponent
   ],
   imports: [
     BrowserModule,
@@ -82,7 +85,10 @@ import { ChartComponent } from './components/user/chart/chart.component';
     BrowserAnimationsModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AgmCoreModule.forRoot({
+      apiKey: ''
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
