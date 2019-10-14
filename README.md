@@ -35,3 +35,6 @@ docker tag bb38976d03cf yourhubusername/verse_gapminder:firsttry
 docker push yourhubusername/verse_gapminder
 
 Добавление chartjs - npm install chart.js --save
+
+
+https://github.com/AnteaterKit/angular2-yandex-maps/blob/master/README.md
